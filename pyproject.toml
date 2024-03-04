@@ -1,0 +1,15 @@
+[project]
+name = "SDR_analyser"
+version = "0.0.1"
+description = "Default template for PDM package"
+authors = [
+    {name = "Dylan Hunter Whittingham", email = "dylanwhittingham@outlook.com"},
+]
+dependencies = []
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "GPL-3.0-only"}
+
+
+[tool.pdm]
+distribution = false
