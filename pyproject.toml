@@ -5,7 +5,12 @@ description = "Default template for PDM package"
 authors = [
     {name = "Dylan Hunter Whittingham", email = "dylanwhittingham@outlook.com"},
 ]
-dependencies = []
+dependencies = [
+    "pyrtlsdr[lib]>=0.3.0",
+    "setuptools>=69.1.1",
+    "numpy>=1.26.4",
+    "matplotlib>=3.8.3",
+]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "GPL-3.0-only"}
