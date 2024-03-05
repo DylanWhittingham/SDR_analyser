@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"ffc4fd850ca51a81","type":"text","text":"Interface with SDR via pyrtlsdr","x":-27,"y":-269,"width":250,"height":60,"color":"4"},
+		{"id":"e19be6f68263f1da","type":"text","text":"record an iq sample of a transmission on 175mhz in a npy file","x":-26,"y":-113,"width":250,"height":93,"color":"4"},
+		{"id":"97bc4ef4de2de04d","type":"text","text":"record a noisefloor on 175mhz","x":-26,"y":73,"width":250,"height":60,"color":"4"},
+		{"id":"898c9c838b0032d3","type":"text","text":"get dB values","x":-26,"y":247,"width":250,"height":60,"color":"4"},
+		{"id":"8fa619b6d0f440c5","type":"text","text":"compare with SNR formula to get a reading","x":-25,"y":407,"width":250,"height":60,"color":"1"},
+		{"id":"5f4c47761149370e","type":"text","text":"possibly find a way to output realtime noisefloor dB levels compared against original noisefloor","x":-25,"y":549,"width":250,"height":151,"color":"4"},
+		{"id":"4003733ed6d561dc","type":"text","text":"do this with psd graph","x":354,"y":164,"width":250,"height":60,"color":"4"},
+		{"id":"89d536eb2d03e430","type":"text","text":"figure out how to get snr from psd 100% possible, need to traverse the lists","x":363,"y":355,"width":250,"height":112},
+		{"id":"8416a9c0054fef5f","x":381,"y":27,"width":250,"height":60,"type":"text","text":"need to extract data for noisefloor"},
+		{"id":"4197d220a8a1db9c","x":363,"y":565,"width":250,"height":60,"color":"5","type":"text","text":"Have done this, negligable use"}
+	],
+	"edges":[
+		{"id":"8af3d09c515ef879","fromNode":"ffc4fd850ca51a81","fromSide":"bottom","toNode":"e19be6f68263f1da","toSide":"top"},
+		{"id":"520358f004c2d85e","fromNode":"e19be6f68263f1da","fromSide":"bottom","toNode":"97bc4ef4de2de04d","toSide":"top"},
+		{"id":"6b6dcf14f44b0595","fromNode":"97bc4ef4de2de04d","fromSide":"bottom","toNode":"898c9c838b0032d3","toSide":"top"},
+		{"id":"20bfc848536efaa7","fromNode":"898c9c838b0032d3","fromSide":"bottom","toNode":"8fa619b6d0f440c5","toSide":"top"},
+		{"id":"4134ba3ba4dd9613","fromNode":"8fa619b6d0f440c5","fromSide":"bottom","toNode":"5f4c47761149370e","toSide":"top"},
+		{"id":"72706cde08921412","fromNode":"898c9c838b0032d3","fromSide":"right","toNode":"4003733ed6d561dc","toSide":"left"},
+		{"id":"826a7b09bd2b222d","fromNode":"97bc4ef4de2de04d","fromSide":"right","toNode":"4003733ed6d561dc","toSide":"left"},
+		{"id":"bfdeb53e81f74b2b","fromNode":"8fa619b6d0f440c5","fromSide":"right","toNode":"89d536eb2d03e430","toSide":"left"},
+		{"id":"e4c6da974ff1a491","fromNode":"97bc4ef4de2de04d","fromSide":"right","toNode":"8416a9c0054fef5f","toSide":"left"},
+		{"id":"1ab4b48e6a5d3bcd","fromNode":"5f4c47761149370e","fromSide":"right","toNode":"4197d220a8a1db9c","toSide":"left"}
+	]
+}

@@ -1,0 +1,249 @@
+{
+  "main": {
+    "id": "ec289410aef2740a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d28ec926bb73fc6d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3f006fedd69f934",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Project-App Dev/SDR_analyser Setup & Initial Planning.canvas",
+                "viewState": {
+                  "x": 503.7247311827954,
+                  "y": -349.010752688172,
+                  "zoom": -0.6601209102285933
+                }
+              }
+            }
+          },
+          {
+            "id": "186392b301497935",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RTLSDR-Radio Terminology & Functions/Configuring the RTLSDR Device.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7be9d6fc3824c7b2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "IQ.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4365a40e610c5411",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Project-App Dev/README.md created..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7c4f064e00a9871c",
+    "type": "split",
+    "children": [
+      {
+        "id": "24ecfeb520ed6649",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "80c9a9a8e0b6f80e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "50620e75db502f55",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4220b0d36fd35219",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "21e0640f063ef740",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e5cb0a405d57840",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f803fd4686d99bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "RTLSDR-Radio Terminology & Functions/Overview.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "196a3ee9c545445a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "RTLSDR-Radio Terminology & Functions/Overview.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a9497a0f149e52c1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9635863a5272a03e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "RTLSDR-Radio Terminology & Functions/Overview.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "webpage-html-export:Export Vault to HTML": false
+    }
+  },
+  "floating": {
+    "id": "33cfab8ddf3fbf4a",
+    "type": "floating",
+    "children": [
+      {
+        "id": "988c30c06f06dc60",
+        "type": "window",
+        "children": [
+          {
+            "id": "7e7baef7b93c2e1f",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "be9a86ca549b57a4",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "RTLSDR-Radio Terminology & Functions/Overview.canvas",
+                    "viewState": {
+                      "x": 0,
+                      "y": 0,
+                      "zoom": 0
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 830,
+        "y": 915,
+        "width": 900,
+        "height": 500,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "be9a86ca549b57a4",
+  "lastOpenFiles": [
+    "RTLSDR-Radio Terminology & Functions/Configuring the RTLSDR Device.md",
+    "Project-App Dev/VS Code.md",
+    "Project-App Dev/TODO.canvas",
+    "Project-App Dev/SDR_analyser Setup & Initial Planning.canvas",
+    "Project-App Dev/README.md created..md",
+    "Project-App Dev/Gitlab - GitHub Issue.md",
+    "IQ.md",
+    "RTLSDR-Radio Terminology & Functions/Overview.canvas",
+    "RTLSDR-Radio Terminology & Functions/quora explanation of dbm, more research.md",
+    "Tracking-Plan.md",
+    "Pasted image 20240304180302.png",
+    "Pasted image 20240304180305.png",
+    "RTLSDR-Radio Terminology & Functions",
+    "Project-App Dev",
+    "Untitled.canvas",
+    "Project-App Dev/PDM package management.md"
+  ]
+}
