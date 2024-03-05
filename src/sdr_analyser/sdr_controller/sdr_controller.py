@@ -22,15 +22,18 @@ iq_samples = sdr.read_samples(1*sample_rate)
 for x in range(5):
     np.append(iq_samples, sdr.read_samples(1*sample_rate))
 
-np.save('sdr_iq_data/iq_samples.npy', iq_samples)
+iq_samples = iq_samples.astype(np.complex64)
 
-loaded_iq = np.load('iq_samples.npy') 
+iq_samples.tofile('sdr_iq_data/iq_samples.iq')
+
+loaded_iq = np.fromfile('sdr_iq_data/iq_samples.iq', np.complex64)
 
 print('Sampling @', sdr.sample_rate, 'Msps')
 print('Frequency @', sdr.center_freq, 'Hz')
 
 plt.psd(loaded_iq, NFFT=1024, Fs=sdr.sample_rate/1e6, Fc=sdr.center_freq/1e6, detrend='mean')
-
+print(iq_samples)
 plt.xlabel('Frequency (MHz)')
 plt.ylabel('Relative power (dB)')
 plt.show()
+
