@@ -1,0 +1,18 @@
+{
+    "global": {
+        "core:author": "DylanWhittingham@outlook.com",
+        "core:datatype": "cf32_le",
+        "core:description": "RF Recording of a FM radio",
+        "core:sample_rate": 1020000.0263452537,
+        "core:sha512": "a439fe9052caf31ebc9921d07c4f5ed76af88ac4f81047087def6223be4694aa893a57b0cbda44e247ff46e70fcd3e29ba80e003715b77dc54fdb52491529162",
+        "core:version": "1.0.0"
+    },
+    "captures": [
+        {
+            "core:datetime": "2024-03-16T18:24:27.485541Z",
+            "core:frequency": 174000000,
+            "core:sample_start": 0
+        }
+    ],
+    "annotations": []
+}
