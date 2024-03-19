@@ -8,7 +8,6 @@ from sigmf.utils import get_data_type_str
 import datetime as dt
 from pylab import *
 from scipy import signal
-import os.path
 
 
 print('Welcome to SDR Analyser!\n')
