@@ -19,18 +19,13 @@ SDR Analyser is a project that utilizes the SDR-RTL device, which is based on th
 
 ## Usage
 
-TODO
+1. Open new_sdr_controller.py in IDE
+2. Input values according to comments
+3. Run file
+4. Results will be outputted to the command line
+5. IQ data will be saved in the sdr_iq_data directory as a sigmf-data and sigmf-meta file
 
-## Credits
-
-RTL SDR
-
-Packages ?
-
-etc TODO
-
-https://github.com/pdm-project/pdm
 
 ## License
 
-Check later
+GPL-3.0 license
