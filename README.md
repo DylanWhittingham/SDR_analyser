@@ -15,7 +15,8 @@ SDR Analyser is a project that utilizes the SDR-RTL device, which is based on th
 
 ## Installation
 
-1. start pipenv shell (py -m pipenv shell)
+1. pdm install
+2. run
 
 ## Usage
 
